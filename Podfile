@@ -9,6 +9,7 @@ target 'hackathonvisa' do
   pod 'Moya', '~> 10.0'
   pod 'Firebase/Core'
   pod 'SAStepperControl'
+  pod 'SVProgressHUD'
 
   target 'hackathonvisaTests' do
     inherit! :search_paths

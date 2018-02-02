@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import UIKit
 
 struct Product {
     let title: String
     let description: String
+    let image: UIImage
     let price: Double
 }

@@ -7,8 +7,10 @@
 //
 
 import Foundation
+import UIKit
 
 struct Store {
     let title: String
     let description:String
+    let image: UIImage
 }

@@ -19,11 +19,10 @@ class ViewController: UIViewController {
         let purchaseInfo = PurchaseInfo(total: 8.0, currency: .brl)
         purchaseInfo.reviewAction = .pay
 
-        checkoutButton.onCheckout(purchaseInfo: purchaseInfo) { result in
+        checkoutButton.onCheckout(purchaseInfo: purchaseInfo) { [weak self] result in
             switch result.statusCode {
             case .success:
-                print("Encrypted key: \(result.encryptedKey ?? "DEU RUIM")")
-                print("Payment data: \(result.encryptedPaymentData ?? "DEU RUIM")")
+                self?.performSegue(withIdentifier: "segueToConfirmation", sender: nil)
             case .userCancelled:
                 print("Payment cancelled by the user")
             default:

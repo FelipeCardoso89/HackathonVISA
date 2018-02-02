@@ -36,6 +36,7 @@ class NearStoresTableViewController: UITableViewController {
             let store = stores[indexPath.row]
             cell.titleLabel.text = store.title
             cell.descriptionLabel.text = store.description
+            cell.iconImageView.image = store.image
             return cell
         } else {
             return UITableViewCell()

@@ -18,6 +18,12 @@ class NearStoreTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
 
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        iconImageView.clipsToBounds = true
+        iconImageView.layer.cornerRadius = 4.0
+    }
+
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }

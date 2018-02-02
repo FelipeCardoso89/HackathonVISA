@@ -16,6 +16,7 @@
 		3E2BF11D202403E2005330B4 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF11C202403E2005330B4 /* Store.swift */; };
 		3E2BF12020240402005330B4 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF11F20240402005330B4 /* Purchase.swift */; };
 		3E2BF1222024042C005330B4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF1212024042C005330B4 /* Product.swift */; };
+		3E2BF12520245C46005330B4 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF12420245C46005330B4 /* ConfirmationViewController.swift */; };
 		3E744B782023E4FD00F9C867 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E744B772023E4FD00F9C867 /* GoogleService-Info.plist */; };
 		3E74E6BE2023AD22005D2407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74E6BD2023AD22005D2407 /* AppDelegate.swift */; };
 		3E74E6C02023AD22005D2407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74E6BF2023AD22005D2407 /* ViewController.swift */; };
@@ -78,6 +79,7 @@
 		3E2BF11C202403E2005330B4 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		3E2BF11F20240402005330B4 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		3E2BF1212024042C005330B4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3E2BF12420245C46005330B4 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 		3E744B772023E4FD00F9C867 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3E74E6BA2023AD22005D2407 /* hackathonvisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathonvisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E74E6BD2023AD22005D2407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -195,6 +197,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3E2BF12320245C31005330B4 /* Confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				3E2BF12420245C46005330B4 /* ConfirmationViewController.swift */,
+			);
+			path = Confirmation;
+			sourceTree = "<group>";
+		};
 		3E74E6B12023AD22005D2407 = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +233,7 @@
 		3E74E6BC2023AD22005D2407 /* hackathonvisa */ = {
 			isa = PBXGroup;
 			children = (
+				3E2BF12320245C31005330B4 /* Confirmation */,
 				3E2BF10B2023EDD4005330B4 /* History */,
 				3E2BF10A2023EDCE005330B4 /* Purchase */,
 				3E74E6BD2023AD22005D2407 /* AppDelegate.swift */,
@@ -520,6 +531,7 @@
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SAStepperControl/SAStepperControl.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -529,6 +541,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAStepperControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,6 +615,7 @@
 				3E74E6BE2023AD22005D2407 /* AppDelegate.swift in Sources */,
 				3E2BF1112023F4E3005330B4 /* NearStoresTableViewController.swift in Sources */,
 				3E2BF1132023F87C005330B4 /* PurchaseViewController.swift in Sources */,
+				3E2BF12520245C46005330B4 /* ConfirmationViewController.swift in Sources */,
 				3E2BF1152023F926005330B4 /* NearStoreTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

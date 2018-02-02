@@ -9,7 +9,14 @@
 import UIKit
 import Firebase
 import VisaCheckoutSDK
+import SVProgressHUD
 
+let formatter = NumberFormatter()
+
+//NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+//NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"pt_BR"];
+//[formatter setLocale:locale];
+//NSString *formattedOutput = [formatter stringFromNumber:<<MEU NUMERO (NSNumber)>>];
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,6 +32,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         FirebaseApp.configure()
 
+        SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.clear)
+        SVProgressHUD.setDefaultStyle(.dark)
+
+        formatter.numberStyle = .currency
+        formatter.locale = Locale(identifier: "pt_BR")
         return true
     }
 
@@ -52,24 +64,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 }
 
-let product1 = Product(title: "Product1", description: "Product description 1", price: 7.80)
-let product2 = Product(title: "Product1", description: "Product description 1", price: 3.30)
-let product3 = Product(title: "Product1", description: "Product description 1", price: 5.00)
-let product4 = Product(title: "Product1", description: "Product description 1", price: 1.99)
-let product5 = Product(title: "Product1", description: "Product description 1", price: 2.00)
+let product0 = Product(title: "Lanche Natural", description: "Ingrediente: salada, tomate, maionese e pão integral.", image: UIImage(named: "lanche_natural")!, price: 10.00)
+let product1 = Product(title: "Pão Frances", description: "Pão frances quente", image: UIImage(named: "pao-frances")!, price: 0.30)
+let product2 = Product(title: "Ovo Caipira", description: "Ovos caipiras direto de minas", image: UIImage(named: "egg")!, price: 4.50)
+let product3 = Product(title: "Gatorage - Frutas vermelhas", description: "Gatorage frutas vermelhas - 350ml", image: UIImage(named: "Gatorage")!, price: 8.50)
+let product4 = Product(title: "Açucar", description: "Açucar União", image: UIImage(named: "458542")!, price: 3.50)
+let product5 = Product(title: "Leite Batavo", description: "Leite integral batavo", image: UIImage(named: "leite_batavo")!, price: 1.99)
+let product6 = Product(title: "Mortadela MANA", description: "Mortadela de qualidade", image: UIImage(named: "mortadela")!, price: 2.50)
 
-let products = [product1, product2, product3, product4, product5]
+let products = [product0, product1, product2, product3, product4, product5, product6]
 
-let store1 = Store(title:"Loja 1", description: "Descrição da loja 2")
-let store2 = Store(title:"Loja 1", description: "Descrição da loja 2")
-let store3 = Store(title:"Loja 1", description: "Descrição da loja 2")
-let store4 = Store(title:"Loja 1", description: "Descrição da loja 2")
+let store1 = Store(title:"Panificadora Alpha", description: "Pão Quentinho a toda hora! Chega mantega derrete!", image: UIImage(named: "panificadora_alfa")!)
+let store2 = Store(title:"Já pão", description: "Padaria Já pão tudo bom para o seu café!", image: UIImage(named: "ja_pao")!)
+let store3 = Store(title:"Panhoca", description: "Panhaca padaria!", image: UIImage(named: "panhoca")!)
+let store4 = Store(title:"Pão center", description: "Padaria que é o centro do pão", image: UIImage(named: "pao_center")!)
+let store5 = Store(title:"Rios Delicatassem", description: "Lojas rios, o lugar!", image: UIImage(named: "rios_delicatessen")!)
 
 let stores: [Store] = [store1, store2, store3, store4]
 
-let purchase1 = Purchase(store: store1, products: products, date: Date(), totalValue: 50.00)
-let purchase2 = Purchase(store: store1, products: products, date: Date(), totalValue: 50.00)
-let purchase3 = Purchase(store: store1, products: products, date: Date(), totalValue: 50.00)
-let purchase4 = Purchase(store: store1, products: products, date: Date(), totalValue: 50.00)
+let purchase1 = Purchase(store: store1, products: products, date: Date(), totalValue: 45.0)
+let purchase2 = Purchase(store: store2, products: products, date: Date(), totalValue: 17.80)
+let purchase3 = Purchase(store: store1, products: products, date: Date(), totalValue: 23.40)
 
-let purchases: [Purchase] = [purchase1, purchase2, purchase3, purchase4]
+let purchases: [Purchase] = [purchase1, purchase2, purchase3]
