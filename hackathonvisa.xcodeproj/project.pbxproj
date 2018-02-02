@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E744B782023E4FD00F9C867 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E744B772023E4FD00F9C867 /* GoogleService-Info.plist */; };
+		3E74E6BE2023AD22005D2407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74E6BD2023AD22005D2407 /* AppDelegate.swift */; };
+		3E74E6C02023AD22005D2407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74E6BF2023AD22005D2407 /* ViewController.swift */; };
+		3E74E6C32023AD22005D2407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E74E6C12023AD22005D2407 /* Main.storyboard */; };
+		3E74E6C52023AD22005D2407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E74E6C42023AD22005D2407 /* Assets.xcassets */; };
+		3E74E6C82023AD22005D2407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E74E6C62023AD22005D2407 /* LaunchScreen.storyboard */; };
+		3E74E6D32023AD22005D2407 /* hackathonvisaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74E6D22023AD22005D2407 /* hackathonvisaTests.swift */; };
+		3E74E6DE2023AD22005D2407 /* hackathonvisaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74E6DD2023AD22005D2407 /* hackathonvisaUITests.swift */; };
+		3ECAB63D2023C104001A06CA /* VisaCheckoutSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECAB63C2023C104001A06CA /* VisaCheckoutSDK.framework */; };
+		3ECAB63E2023C104001A06CA /* VisaCheckoutSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECAB63C2023C104001A06CA /* VisaCheckoutSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3ECAB6432023C138001A06CA /* VisaCheckoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECAB6412023C137001A06CA /* VisaCheckoutButton.swift */; };
+		3ECAB6442023C138001A06CA /* TrustDefender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECAB6422023C138001A06CA /* TrustDefender.framework */; };
+		3ECAB6462023C158001A06CA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECAB6452023C158001A06CA /* libz.tbd */; };
+		ABEC1B261C2F3CE3926CE435 /* Pods_hackathonvisaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE410565010EB95388B0DF68 /* Pods_hackathonvisaUITests.framework */; };
+		C0A3D5CAC835C07A92CB6C02 /* Pods_hackathonvisa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55E6A4C136F8C681E0B2F68 /* Pods_hackathonvisa.framework */; };
+		CF9CD54E125E30A54BD39076 /* Pods_hackathonvisaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7831F4CF66D7F4C6CAD96F07 /* Pods_hackathonvisaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E74E6CF2023AD22005D2407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E74E6B22023AD22005D2407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E74E6B92023AD22005D2407;
+			remoteInfo = hackathonvisa;
+		};
+		3E74E6DA2023AD22005D2407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E74E6B22023AD22005D2407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E74E6B92023AD22005D2407;
+			remoteInfo = hackathonvisa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3ECAB63F2023C104001A06CA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3ECAB63E2023C104001A06CA /* VisaCheckoutSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17EBC7B734FD7F81ADA6A55E /* Pods-hackathonvisa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonvisa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonvisa/Pods-hackathonvisa.debug.xcconfig"; sourceTree = "<group>"; };
+		341D4AAEAE8E58852B70915B /* Pods-hackathonvisaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonvisaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonvisaTests/Pods-hackathonvisaTests.release.xcconfig"; sourceTree = "<group>"; };
+		361193C76E18952E69171313 /* Pods-hackathonvisa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonvisa.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonvisa/Pods-hackathonvisa.release.xcconfig"; sourceTree = "<group>"; };
+		3E744B772023E4FD00F9C867 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E74E6BA2023AD22005D2407 /* hackathonvisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathonvisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E74E6BD2023AD22005D2407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E74E6BF2023AD22005D2407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E74E6C22023AD22005D2407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E74E6C42023AD22005D2407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E74E6C72023AD22005D2407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E74E6C92023AD22005D2407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E74E6CE2023AD22005D2407 /* hackathonvisaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackathonvisaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E74E6D22023AD22005D2407 /* hackathonvisaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathonvisaTests.swift; sourceTree = "<group>"; };
+		3E74E6D42023AD22005D2407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E74E6D92023AD22005D2407 /* hackathonvisaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackathonvisaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E74E6DD2023AD22005D2407 /* hackathonvisaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathonvisaUITests.swift; sourceTree = "<group>"; };
+		3E74E6DF2023AD22005D2407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECAB63A2023C0E0001A06CA /* VisaCheckoutSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisaCheckoutSDK.framework; path = "../../../../Downloads/VisaCheckoutSDK_5.5.2_10effe93 3/VisaCheckoutSDK.framework"; sourceTree = "<group>"; };
+		3ECAB63C2023C104001A06CA /* VisaCheckoutSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisaCheckoutSDK.framework; sourceTree = "<group>"; };
+		3ECAB6412023C137001A06CA /* VisaCheckoutButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaCheckoutButton.swift; sourceTree = "<group>"; };
+		3ECAB6422023C138001A06CA /* TrustDefender.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TrustDefender.framework; sourceTree = "<group>"; };
+		3ECAB6452023C158001A06CA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7831F4CF66D7F4C6CAD96F07 /* Pods_hackathonvisaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathonvisaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D603D58C17FC82869F968D /* Pods-hackathonvisaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonvisaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonvisaUITests/Pods-hackathonvisaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B55E6A4C136F8C681E0B2F68 /* Pods_hackathonvisa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathonvisa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85CCCBF86265B4C852ADAA8 /* Pods-hackathonvisaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonvisaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonvisaTests/Pods-hackathonvisaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE410565010EB95388B0DF68 /* Pods_hackathonvisaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathonvisaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AB23AFD39CE33D1A874024 /* Pods-hackathonvisaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonvisaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonvisaUITests/Pods-hackathonvisaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E74E6B72023AD22005D2407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECAB6462023C158001A06CA /* libz.tbd in Frameworks */,
+				3ECAB6442023C138001A06CA /* TrustDefender.framework in Frameworks */,
+				3ECAB63D2023C104001A06CA /* VisaCheckoutSDK.framework in Frameworks */,
+				C0A3D5CAC835C07A92CB6C02 /* Pods_hackathonvisa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E74E6CB2023AD22005D2407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9CD54E125E30A54BD39076 /* Pods_hackathonvisaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E74E6D62023AD22005D2407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEC1B261C2F3CE3926CE435 /* Pods_hackathonvisaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183373779BE2B731682107C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ECAB6452023C158001A06CA /* libz.tbd */,
+				3ECAB63A2023C0E0001A06CA /* VisaCheckoutSDK.framework */,
+				B55E6A4C136F8C681E0B2F68 /* Pods_hackathonvisa.framework */,
+				7831F4CF66D7F4C6CAD96F07 /* Pods_hackathonvisaTests.framework */,
+				EE410565010EB95388B0DF68 /* Pods_hackathonvisaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E2BF10A2023EDCE005330B4 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		3E2BF10B2023EDD4005330B4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3E74E6B12023AD22005D2407 = {
+			isa = PBXGroup;
+			children = (
+				3ECAB6422023C138001A06CA /* TrustDefender.framework */,
+				3ECAB6412023C137001A06CA /* VisaCheckoutButton.swift */,
+				3ECAB63C2023C104001A06CA /* VisaCheckoutSDK.framework */,
+				3E74E6BC2023AD22005D2407 /* hackathonvisa */,
+				3E74E6D12023AD22005D2407 /* hackathonvisaTests */,
+				3E74E6DC2023AD22005D2407 /* hackathonvisaUITests */,
+				3E74E6BB2023AD22005D2407 /* Products */,
+				E8B7A8E5C4E2D8AD0711C284 /* Pods */,
+				183373779BE2B731682107C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E74E6BB2023AD22005D2407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E74E6BA2023AD22005D2407 /* hackathonvisa.app */,
+				3E74E6CE2023AD22005D2407 /* hackathonvisaTests.xctest */,
+				3E74E6D92023AD22005D2407 /* hackathonvisaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E74E6BC2023AD22005D2407 /* hackathonvisa */ = {
+			isa = PBXGroup;
+			children = (
+				3E2BF10B2023EDD4005330B4 /* New Group */,
+				3E2BF10A2023EDCE005330B4 /* Purchase */,
+				3E74E6BD2023AD22005D2407 /* AppDelegate.swift */,
+				3E74E6BF2023AD22005D2407 /* ViewController.swift */,
+				3E74E6C12023AD22005D2407 /* Main.storyboard */,
+				3E74E6C42023AD22005D2407 /* Assets.xcassets */,
+				3E74E6C62023AD22005D2407 /* LaunchScreen.storyboard */,
+				3E74E6C92023AD22005D2407 /* Info.plist */,
+				3E744B772023E4FD00F9C867 /* GoogleService-Info.plist */,
+			);
+			path = hackathonvisa;
+			sourceTree = "<group>";
+		};
+		3E74E6D12023AD22005D2407 /* hackathonvisaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E74E6D22023AD22005D2407 /* hackathonvisaTests.swift */,
+				3E74E6D42023AD22005D2407 /* Info.plist */,
+			);
+			path = hackathonvisaTests;
+			sourceTree = "<group>";
+		};
+		3E74E6DC2023AD22005D2407 /* hackathonvisaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E74E6DD2023AD22005D2407 /* hackathonvisaUITests.swift */,
+				3E74E6DF2023AD22005D2407 /* Info.plist */,
+			);
+			path = hackathonvisaUITests;
+			sourceTree = "<group>";
+		};
+		E8B7A8E5C4E2D8AD0711C284 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17EBC7B734FD7F81ADA6A55E /* Pods-hackathonvisa.debug.xcconfig */,
+				361193C76E18952E69171313 /* Pods-hackathonvisa.release.xcconfig */,
+				D85CCCBF86265B4C852ADAA8 /* Pods-hackathonvisaTests.debug.xcconfig */,
+				341D4AAEAE8E58852B70915B /* Pods-hackathonvisaTests.release.xcconfig */,
+				F7AB23AFD39CE33D1A874024 /* Pods-hackathonvisaUITests.debug.xcconfig */,
+				95D603D58C17FC82869F968D /* Pods-hackathonvisaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E74E6B92023AD22005D2407 /* hackathonvisa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E74E6E22023AD22005D2407 /* Build configuration list for PBXNativeTarget "hackathonvisa" */;
+			buildPhases = (
+				EC9A2D817D1C9DE3A977D2F3 /* [CP] Check Pods Manifest.lock */,
+				3E74E6B62023AD22005D2407 /* Sources */,
+				3E74E6B72023AD22005D2407 /* Frameworks */,
+				3E74E6B82023AD22005D2407 /* Resources */,
+				B4347EF76FD2C17147CD11E6 /* [CP] Embed Pods Frameworks */,
+				690F739ABBBF10A624B17061 /* [CP] Copy Pods Resources */,
+				3ECAB63F2023C104001A06CA /* Embed Frameworks */,
+				3ECAB6472023C193001A06CA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackathonvisa;
+			productName = hackathonvisa;
+			productReference = 3E74E6BA2023AD22005D2407 /* hackathonvisa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E74E6CD2023AD22005D2407 /* hackathonvisaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E74E6E52023AD22005D2407 /* Build configuration list for PBXNativeTarget "hackathonvisaTests" */;
+			buildPhases = (
+				3DE0126370855540BF836A70 /* [CP] Check Pods Manifest.lock */,
+				3E74E6CA2023AD22005D2407 /* Sources */,
+				3E74E6CB2023AD22005D2407 /* Frameworks */,
+				3E74E6CC2023AD22005D2407 /* Resources */,
+				C5551B115D78492F572A7CC7 /* [CP] Embed Pods Frameworks */,
+				3A2BE96EDBA8EC1C5B0544D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E74E6D02023AD22005D2407 /* PBXTargetDependency */,
+			);
+			name = hackathonvisaTests;
+			productName = hackathonvisaTests;
+			productReference = 3E74E6CE2023AD22005D2407 /* hackathonvisaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E74E6D82023AD22005D2407 /* hackathonvisaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E74E6E82023AD22005D2407 /* Build configuration list for PBXNativeTarget "hackathonvisaUITests" */;
+			buildPhases = (
+				08436A3A1AC6C73F15998CBF /* [CP] Check Pods Manifest.lock */,
+				3E74E6D52023AD22005D2407 /* Sources */,
+				3E74E6D62023AD22005D2407 /* Frameworks */,
+				3E74E6D72023AD22005D2407 /* Resources */,
+				78B3923F681DA8EACEB7ABD1 /* [CP] Embed Pods Frameworks */,
+				BB1851BDA53E200D5B258D69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E74E6DB2023AD22005D2407 /* PBXTargetDependency */,
+			);
+			name = hackathonvisaUITests;
+			productName = hackathonvisaUITests;
+			productReference = 3E74E6D92023AD22005D2407 /* hackathonvisaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E74E6B22023AD22005D2407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Felipe Antonio Cardoso";
+				TargetAttributes = {
+					3E74E6B92023AD22005D2407 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3E74E6CD2023AD22005D2407 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E74E6B92023AD22005D2407;
+					};
+					3E74E6D82023AD22005D2407 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E74E6B92023AD22005D2407;
+					};
+				};
+			};
+			buildConfigurationList = 3E74E6B52023AD22005D2407 /* Build configuration list for PBXProject "hackathonvisa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E74E6B12023AD22005D2407;
+			productRefGroup = 3E74E6BB2023AD22005D2407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E74E6B92023AD22005D2407 /* hackathonvisa */,
+				3E74E6CD2023AD22005D2407 /* hackathonvisaTests */,
+				3E74E6D82023AD22005D2407 /* hackathonvisaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E74E6B82023AD22005D2407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E74E6C82023AD22005D2407 /* LaunchScreen.storyboard in Resources */,
+				3E744B782023E4FD00F9C867 /* GoogleService-Info.plist in Resources */,
+				3E74E6C52023AD22005D2407 /* Assets.xcassets in Resources */,
+				3E74E6C32023AD22005D2407 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E74E6CC2023AD22005D2407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E74E6D72023AD22005D2407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08436A3A1AC6C73F15998CBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackathonvisaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A2BE96EDBA8EC1C5B0544D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackathonvisaTests/Pods-hackathonvisaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE0126370855540BF836A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackathonvisaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ECAB6472023C193001A06CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# This script removes simulator architectures from VisaCheckoutSDK.framework so it can be uploaded to the App Store.\n# Make this a Build Phase run script after the 'Embed Frameworks' phase.\n# 'Run script only when installing' should be checked.\n# http://stackoverflow.com/questions/30547283/submit-to-app-store-issues/30866648\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nFRAMEWORK_EXECUTABLE_NAME=VisaCheckoutSDK\nfind \"$APP_PATH\" -name \"${FRAMEWORK_EXECUTABLE_NAME}.framework\" -type d | while read -r FRAMEWORK\ndo\n\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\ndone";
+		};
+		690F739ABBBF10A624B17061 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hackathonvisa/Pods-hackathonvisa-resources.sh",
+				"${PODS_ROOT}/VisaCheckoutSDK/VisaCheckoutSDK_5.5.0_ba749240/VisaCheckoutButton+Designable.h",
+				"${PODS_ROOT}/VisaCheckoutSDK/VisaCheckoutSDK_5.5.0_ba749240/VisaCheckoutButton+Designable.m",
+				"${PODS_ROOT}/VisaCheckoutSDK/VisaCheckoutSDK_5.5.0_ba749240/VisaCheckoutButton.swift",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackathonvisa/Pods-hackathonvisa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B3923F681DA8EACEB7ABD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackathonvisaUITests/Pods-hackathonvisaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4347EF76FD2C17147CD11E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hackathonvisa/Pods-hackathonvisa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackathonvisa/Pods-hackathonvisa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1851BDA53E200D5B258D69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackathonvisaUITests/Pods-hackathonvisaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5551B115D78492F572A7CC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackathonvisaTests/Pods-hackathonvisaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9A2D817D1C9DE3A977D2F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackathonvisa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E74E6B62023AD22005D2407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E74E6C02023AD22005D2407 /* ViewController.swift in Sources */,
+				3ECAB6432023C138001A06CA /* VisaCheckoutButton.swift in Sources */,
+				3E74E6BE2023AD22005D2407 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E74E6CA2023AD22005D2407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E74E6D32023AD22005D2407 /* hackathonvisaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E74E6D52023AD22005D2407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E74E6DE2023AD22005D2407 /* hackathonvisaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E74E6D02023AD22005D2407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E74E6B92023AD22005D2407 /* hackathonvisa */;
+			targetProxy = 3E74E6CF2023AD22005D2407 /* PBXContainerItemProxy */;
+		};
+		3E74E6DB2023AD22005D2407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E74E6B92023AD22005D2407 /* hackathonvisa */;
+			targetProxy = 3E74E6DA2023AD22005D2407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E74E6C12023AD22005D2407 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E74E6C22023AD22005D2407 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E74E6C62023AD22005D2407 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E74E6C72023AD22005D2407 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E74E6E02023AD22005D2407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E74E6E12023AD22005D2407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E74E6E32023AD22005D2407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EBC7B734FD7F81ADA6A55E /* Pods-hackathonvisa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = hackathonvisa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeantoniocardoso.hackathonvisa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E74E6E42023AD22005D2407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361193C76E18952E69171313 /* Pods-hackathonvisa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = hackathonvisa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeantoniocardoso.hackathonvisa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E74E6E62023AD22005D2407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85CCCBF86265B4C852ADAA8 /* Pods-hackathonvisaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
+				INFOPLIST_FILE = hackathonvisaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeantoniocardoso.hackathonvisaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackathonvisa.app/hackathonvisa";
+			};
+			name = Debug;
+		};
+		3E74E6E72023AD22005D2407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341D4AAEAE8E58852B70915B /* Pods-hackathonvisaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
+				INFOPLIST_FILE = hackathonvisaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeantoniocardoso.hackathonvisaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackathonvisa.app/hackathonvisa";
+			};
+			name = Release;
+		};
+		3E74E6E92023AD22005D2407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AB23AFD39CE33D1A874024 /* Pods-hackathonvisaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
+				INFOPLIST_FILE = hackathonvisaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeantoniocardoso.hackathonvisaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hackathonvisa;
+			};
+			name = Debug;
+		};
+		3E74E6EA2023AD22005D2407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D603D58C17FC82869F968D /* Pods-hackathonvisaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S2QHFGTQK;
+				INFOPLIST_FILE = hackathonvisaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeantoniocardoso.hackathonvisaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hackathonvisa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E74E6B52023AD22005D2407 /* Build configuration list for PBXProject "hackathonvisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E74E6E02023AD22005D2407 /* Debug */,
+				3E74E6E12023AD22005D2407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E74E6E22023AD22005D2407 /* Build configuration list for PBXNativeTarget "hackathonvisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E74E6E32023AD22005D2407 /* Debug */,
+				3E74E6E42023AD22005D2407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E74E6E52023AD22005D2407 /* Build configuration list for PBXNativeTarget "hackathonvisaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E74E6E62023AD22005D2407 /* Debug */,
+				3E74E6E72023AD22005D2407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E74E6E82023AD22005D2407 /* Build configuration list for PBXNativeTarget "hackathonvisaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E74E6E92023AD22005D2407 /* Debug */,
+				3E74E6EA2023AD22005D2407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E74E6B22023AD22005D2407 /* Project object */;
+}
