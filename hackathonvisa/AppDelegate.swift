@@ -49,7 +49,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
 }
 
+let product1 = Product(title: "Product1", description: "Product description 1", price: 7.80)
+let product2 = Product(title: "Product1", description: "Product description 1", price: 3.30)
+let product3 = Product(title: "Product1", description: "Product description 1", price: 5.00)
+let product4 = Product(title: "Product1", description: "Product description 1", price: 1.99)
+let product5 = Product(title: "Product1", description: "Product description 1", price: 2.00)
+
+let products = [product1, product2, product3, product4, product5]
+
+let store1 = Store(title:"Loja 1", description: "Descrição da loja 2")
+let store2 = Store(title:"Loja 1", description: "Descrição da loja 2")
+let store3 = Store(title:"Loja 1", description: "Descrição da loja 2")
+let store4 = Store(title:"Loja 1", description: "Descrição da loja 2")
+
+let stores: [Store] = [store1, store2, store3, store4]
+
+let purchase1 = Purchase(store: store1, products: products, date: Date(), totalValue: 50.00)
+let purchase2 = Purchase(store: store1, products: products, date: Date(), totalValue: 50.00)
+let purchase3 = Purchase(store: store1, products: products, date: Date(), totalValue: 50.00)
+let purchase4 = Purchase(store: store1, products: products, date: Date(), totalValue: 50.00)
+
+let purchases: [Purchase] = [purchase1, purchase2, purchase3, purchase4]

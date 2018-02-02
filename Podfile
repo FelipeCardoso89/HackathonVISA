@@ -8,6 +8,7 @@ target 'hackathonvisa' do
   # Pods for hackathonvisa
   pod 'Moya', '~> 10.0'
   pod 'Firebase/Core'
+  pod 'SAStepperControl'
 
   target 'hackathonvisaTests' do
     inherit! :search_paths

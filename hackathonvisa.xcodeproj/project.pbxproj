@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2BF10F2023F3E7005330B4 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF10E2023F3E7005330B4 /* HistoryTableViewController.swift */; };
+		3E2BF1112023F4E3005330B4 /* NearStoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF1102023F4E3005330B4 /* NearStoresTableViewController.swift */; };
+		3E2BF1132023F87C005330B4 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF1122023F87C005330B4 /* PurchaseViewController.swift */; };
+		3E2BF1152023F926005330B4 /* NearStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF1142023F926005330B4 /* NearStoreTableViewCell.swift */; };
+		3E2BF1172023F966005330B4 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF1162023F966005330B4 /* ProductTableViewCell.swift */; };
+		3E2BF1192023F99F005330B4 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF1182023F99F005330B4 /* HistoryTableViewCell.swift */; };
+		3E2BF11D202403E2005330B4 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF11C202403E2005330B4 /* Store.swift */; };
+		3E2BF12020240402005330B4 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF11F20240402005330B4 /* Purchase.swift */; };
+		3E2BF1222024042C005330B4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BF1212024042C005330B4 /* Product.swift */; };
 		3E744B782023E4FD00F9C867 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E744B772023E4FD00F9C867 /* GoogleService-Info.plist */; };
 		3E74E6BE2023AD22005D2407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74E6BD2023AD22005D2407 /* AppDelegate.swift */; };
 		3E74E6C02023AD22005D2407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74E6BF2023AD22005D2407 /* ViewController.swift */; };
@@ -60,6 +69,15 @@
 		17EBC7B734FD7F81ADA6A55E /* Pods-hackathonvisa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonvisa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonvisa/Pods-hackathonvisa.debug.xcconfig"; sourceTree = "<group>"; };
 		341D4AAEAE8E58852B70915B /* Pods-hackathonvisaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonvisaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonvisaTests/Pods-hackathonvisaTests.release.xcconfig"; sourceTree = "<group>"; };
 		361193C76E18952E69171313 /* Pods-hackathonvisa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathonvisa.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathonvisa/Pods-hackathonvisa.release.xcconfig"; sourceTree = "<group>"; };
+		3E2BF10E2023F3E7005330B4 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		3E2BF1102023F4E3005330B4 /* NearStoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearStoresTableViewController.swift; sourceTree = "<group>"; };
+		3E2BF1122023F87C005330B4 /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		3E2BF1142023F926005330B4 /* NearStoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearStoreTableViewCell.swift; sourceTree = "<group>"; };
+		3E2BF1162023F966005330B4 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		3E2BF1182023F99F005330B4 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		3E2BF11C202403E2005330B4 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3E2BF11F20240402005330B4 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		3E2BF1212024042C005330B4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		3E744B772023E4FD00F9C867 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3E74E6BA2023AD22005D2407 /* hackathonvisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathonvisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E74E6BD2023AD22005D2407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,15 +151,48 @@
 		3E2BF10A2023EDCE005330B4 /* Purchase */ = {
 			isa = PBXGroup;
 			children = (
+				3E2BF11A202403B3005330B4 /* Models */,
+				3E2BF11B202403BA005330B4 /* Cell */,
+				3E2BF1102023F4E3005330B4 /* NearStoresTableViewController.swift */,
+				3E2BF1122023F87C005330B4 /* PurchaseViewController.swift */,
 			);
 			path = Purchase;
 			sourceTree = "<group>";
 		};
-		3E2BF10B2023EDD4005330B4 /* New Group */ = {
+		3E2BF10B2023EDD4005330B4 /* History */ = {
 			isa = PBXGroup;
 			children = (
+				3E2BF11E202403E5005330B4 /* Models */,
+				3E2BF10E2023F3E7005330B4 /* HistoryTableViewController.swift */,
+				3E2BF1182023F99F005330B4 /* HistoryTableViewCell.swift */,
 			);
-			path = "New Group";
+			path = History;
+			sourceTree = "<group>";
+		};
+		3E2BF11A202403B3005330B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E2BF11C202403E2005330B4 /* Store.swift */,
+				3E2BF1212024042C005330B4 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E2BF11B202403BA005330B4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3E2BF1142023F926005330B4 /* NearStoreTableViewCell.swift */,
+				3E2BF1162023F966005330B4 /* ProductTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3E2BF11E202403E5005330B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E2BF11F20240402005330B4 /* Purchase.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		3E74E6B12023AD22005D2407 = {
@@ -172,7 +223,7 @@
 		3E74E6BC2023AD22005D2407 /* hackathonvisa */ = {
 			isa = PBXGroup;
 			children = (
-				3E2BF10B2023EDD4005330B4 /* New Group */,
+				3E2BF10B2023EDD4005330B4 /* History */,
 				3E2BF10A2023EDCE005330B4 /* Purchase */,
 				3E74E6BD2023AD22005D2407 /* AppDelegate.swift */,
 				3E74E6BF2023AD22005D2407 /* ViewController.swift */,
@@ -468,6 +519,7 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SAStepperControl/SAStepperControl.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -476,6 +528,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAStepperControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,9 +591,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E2BF12020240402005330B4 /* Purchase.swift in Sources */,
+				3E2BF1192023F99F005330B4 /* HistoryTableViewCell.swift in Sources */,
+				3E2BF10F2023F3E7005330B4 /* HistoryTableViewController.swift in Sources */,
+				3E2BF1172023F966005330B4 /* ProductTableViewCell.swift in Sources */,
 				3E74E6C02023AD22005D2407 /* ViewController.swift in Sources */,
+				3E2BF1222024042C005330B4 /* Product.swift in Sources */,
 				3ECAB6432023C138001A06CA /* VisaCheckoutButton.swift in Sources */,
+				3E2BF11D202403E2005330B4 /* Store.swift in Sources */,
 				3E74E6BE2023AD22005D2407 /* AppDelegate.swift in Sources */,
+				3E2BF1112023F4E3005330B4 /* NearStoresTableViewController.swift in Sources */,
+				3E2BF1132023F87C005330B4 /* PurchaseViewController.swift in Sources */,
+				3E2BF1152023F926005330B4 /* NearStoreTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
